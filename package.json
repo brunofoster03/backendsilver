@@ -1,0 +1,38 @@
+{
+  "name": "silver-express-api",
+  "version": "1.0.0",
+  "description": "Silver Express API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep-skill/silver-express-api.git"
+  },
+  "author": "Deep Skill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deep-skill/silver-express-api/issues"
+  },
+  "homepage": "https://github.com/deep-skill/silver-express-api#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-oauth2-jwt-bearer": "^1.5.0",
+    "express-openid-connect": "^2.16.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
